@@ -1,90 +1,58 @@
 # 🧠 **Lógica del Proyecto**  
 
 ## 📌 1. Descripción  
-**Nombre del Proyecto:** [Nombre del Proyecto]  
-**Fecha:** [DD/MM/AAAA]  
-**Autor:** [Nombre del Asistente de Lógica]  
+**Nombre del Proyecto:** [GESTION DE TAREAS PENDIENTES]  
+**Fecha:** [02-03-2025]  
+**Autor:** [UZIEL ALEJANDRO]  
 
 📢 **Resumen:**  
-[Breve explicación del propósito del programa y qué problema resuelve.]  
+# Lógica para la Gestión de Tareas Pendientes
+
+## 1. Definición de la Clase `Tarea`
+- Debe representar una tarea con:
+  - **Descripción**: Un texto que indica la tarea.
+  - **Estado**: Un indicador que muestra si la tarea está completada o no.
+- Debe incluir métodos para:
+  - **Marcar la tarea como completada**.
+  - **Mostrar la tarea en formato `[ ] Descripción` si está pendiente y `[✓] Descripción` si está completada**.
 
 ---
 
-## 🔄 2. Flujo del Programa  
-1️⃣ [Paso 1: Explicar qué hace el programa primero]  
-2️⃣ [Paso 2: Explicar el siguiente paso lógico]  
-3️⃣ [Paso 3: Continuar describiendo los pasos del programa]  
-4️⃣ [Paso 4: Explicar la salida final esperada]  
-
-📌 **Diagrama de flujo (Opcional):**  
-(Si el programa es complejo, se puede agregar un diagrama de flujo aquí.O sino borra esta seccion.)  
-
----
-
-## 🔧 3. Funciones Clave  
-📌 **Lista de funciones que el programador debe implementar:**  
-
-| Función | Entrada | Salida | Descripción |  
-|---------|--------|--------|-------------|  
-| `nombreFuncion1()` | [Tipo de dato] | [Tipo de dato] | [Explicación breve] |  
-| `nombreFuncion2()` | [Tipo de dato] | [Tipo de dato] | [Explicación breve] |  
-
-✏️ **Ejemplo:**  
-
-| Función | Entrada | Salida | Descripción |  
-|---------|--------|--------|-------------|  
-| `validarNumero(int num)` | Un número entero | `true` o `false` | Verifica si el número es positivo |  
-| `calcularResultado(int num)` | Un número entero validado | Número entero | Multiplica el número por 2 |  
+## 2. Creación de la Clase `GestorTareas`
+- Debe gestionar una lista de tareas usando **ArrayList**.
+- Debe permitir:
+  - **Agregar nuevas tareas**.
+  - **Marcar una tarea como completada** a partir de su posición en la lista.
+  - **Mostrar todas las tareas** con su estado actual.
+  - **Filtrar y mostrar solo las tareas pendientes** utilizando **Streams y Lambda**.
 
 ---
 
-## 🔹 4. Reglas y Restricciones  
-📌 **Condiciones que el programador debe seguir:**  
-✅ [Regla 1: Explicar qué valores son válidos o inválidos]  
-✅ [Regla 2: Explicar si hay excepciones o errores que manejar]  
-✅ [Regla 3: Explicar si el programa debe seguir un formato específico]  
-
-✏️ **Ejemplo:**  
-- El número ingresado debe ser **mayor que 0**.  
-- Si el usuario ingresa texto en vez de número, el programa debe **mostrar un mensaje de error**.  
-- El programa debe funcionar con **números enteros** únicamente.  
-
----
-
-## 📌 5. Ejemplo de Entrada y Salida  
-| Entrada | Salida  |  
-|---------|--------|  
-| [Ejemplo] | [Ejemplo] |  
-| [Ejemplo] | [Ejemplo] |  
-
-✏️ **Ejemplo para un programa de conversión de temperatura:**  
-
-| Entrada (°C) | Salida (°F) |  
-|-------------|------------|  
-| 0           | 32         |  
-| 100         | 212        |  
-| -40         | -40        |  
+## 3. Interacción con el Usuario (`Main`)
+- Se debe utilizar **Scanner** para recibir comandos del usuario.
+- El programa debe mostrar un **menú** con opciones para:
+  1. **Agregar una tarea**.
+  2. **Marcar una tarea como completada**.
+  3. **Mostrar todas las tareas**.
+  4. **Mostrar solo las tareas pendientes**.
+  5. **Salir del programa**.
+- Cada opción debe ejecutar la acción correspondiente en `GestorTareas`.
 
 ---
 
-## 🛠 6. Casos Especiales  
-📌 **Situaciones que el programador debe manejar:**  
-- **Caso 1:** [Descripción de un caso límite o posible error]  
-- **Caso 2:** [Descripción de otro caso especial]  
-
-✏️ **Ejemplo:**  
-- Si el usuario ingresa un número negativo, mostrar `"Número inválido"`.  
-- Si el usuario ingresa una letra en vez de número, mostrar `"Error: entrada inválida"`.  
+## 4. Consideraciones Adicionales
+- Validar que los índices ingresados por el usuario sean correctos al marcar tareas como completadas.
+- Mostrar mensajes adecuados cuando la lista esté vacía o todas las tareas estén completadas.
+- Utilizar **bucles y condicionales** para gestionar el flujo del programa.
+- Aplicar buenas prácticas de programación y modularidad en el código.
 
 ---
 
-## 🔄 7. Notas Adicionales  
-📌 **Información extra para el programador (si aplica).**  
-
-✏️ **Ejemplo:**  
-- Se puede mejorar el rendimiento usando `Math.round()` en la conversión de temperatura.  
-- Se recomienda usar `Scanner` para capturar la entrada del usuario.  
-
+## **Objetivo del Ejercicio**
+✅ Usar **ArrayList** para manejar la lista de tareas.  
+✅ Aplicar **Streams y Lambda** para filtrar tareas pendientes.  
+✅ Implementar **Scanner** para la interacción con el usuario.  
+✅ Diseñar un programa que sea **modular, claro y eficiente**.  
 
 
 
