@@ -1,9 +1,9 @@
 # 🧠 **Lógica del Proyecto**  
 
 ## 📌 1. Descripción  
-**Nombre del Proyecto:** [GESTION DE TAREAS PENDIENTES]  
-**Fecha:** [02-03-2025]  
-**Autor:** [UZIEL ALEJANDRO]  
+**Nombre del Proyecto:** GESTION DE TAREAS PENDIENTES
+**Fecha:** 02-03-2025
+**Autor:** UZIEL ALEJANDRO
 
 📢 **Resumen:**  
 # Lógica para la Gestión de Tareas Pendientes
