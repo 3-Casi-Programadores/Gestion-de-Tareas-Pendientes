@@ -3,7 +3,7 @@
 ## 📌 1. Descripción  
 **Nombre del Proyecto:** [Nombre del Proyecto]  
 **Fecha de Creación:** [DD/MM/AAAA]  
-**Autor(es):** [Nombres del encargado]  
+**Autor(es):** [Nombres del encargado Denis colon]  
 **Versión:** [1.0 / 2.0, etc.]  
 
 📢 **Resumen:**  
