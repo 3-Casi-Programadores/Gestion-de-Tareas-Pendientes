@@ -15,7 +15,7 @@ Este proyecto es un sistema en Java que permite gestionar una lista de estudiant
 - Eliminar un estudiante por su nombre.
 
 ## Integrantes
-
+- Elis Gonzalez
 - Denis Colon
 - Carlos Campos
 - Uziel Alejandro
